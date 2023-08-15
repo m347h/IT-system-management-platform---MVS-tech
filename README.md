@@ -21,7 +21,7 @@ create table user
     gender   int                      null comment '性别',
     phone    varchar(20)              null comment '号码',
     role_id  int                      null comment '角色 0=高级管理员，1=管理员， 2=普通账号 user's role: 0=senior admin, 1=admin, 2=general user',
-    no       varchar(4) default 'Y'   null comment 'account',
+    isValid  varchar(4) default 'Y'   null comment 'valid or not, Y=valid, else=invalid'
 )
     charset = utf8; 
 ```
