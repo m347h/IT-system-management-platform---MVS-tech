@@ -10,7 +10,7 @@
 ## creating database 实例，creating the user table and adding default values. This user table is used for testing purposes. 
 
 ```
-create table user 
+create Table user 
 (
     id       int auto_increment comment '主键' 
         primary key,
